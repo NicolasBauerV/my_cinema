@@ -1,0 +1,55 @@
+button {
+    transition: none;
+    padding: .5em 1em;
+    border-color: #620404;
+    background-color: #FFF;
+    border-radius: 20px;
+    color: #620404;
+}
+
+button:hover {
+    cursor: pointer;
+    transition: .23s;
+    color: #fff;
+    background-color: #620404;
+}
+
+
+.modify {
+    background-color: rgb(255, 217, 0);
+    border: 1px solid black;
+    padding: .5em;
+    border-radius: 5px;
+}
+
+.modify:hover {
+    cursor: pointer;
+    filter: brightness(110%);
+}
+
+.modify:active {
+    filter: brightness(50%);
+}
+
+.delete {
+    background-color: rgb(255, 0, 0);
+    border: 1px solid black;
+    padding: .5em;
+    border-radius: 5px;
+}
+
+.delete:hover {
+    cursor: pointer;
+}
+
+.delete:active {
+    filter: brightness(90%);
+}
+
+.disabled {
+    background-color: rgb(209, 209, 209);
+    color: black;
+    border: 1px solid black;
+    padding: .5em;
+    border-radius: 5px;
+}

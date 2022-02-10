@@ -1,0 +1,17 @@
+@import url('./index.css');
+
+.desc {
+    color: #000000;
+    font-weight: bold;
+}
+
+.link-admin { 
+    margin-top: 1.5em;
+    margin-left: 1em;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    border: 1px solid red;
+    width: max-content;
+    padding: 0.5em;
+    border-radius: 10px;
+}

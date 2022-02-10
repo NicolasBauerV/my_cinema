@@ -1,0 +1,65 @@
+@import url('./index.css');
+
+.desc {
+    color: #000000;
+    font-weight: bold;
+}
+
+.link-admin { 
+    margin-top: 1.5em;
+    margin-left: 1em;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    border: 1px solid red;
+    width: max-content;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+.show-film:hover {
+    cursor: pointer;
+    background-color: rgba(141, 141, 141, 0.226);
+}
+
+.more {
+    margin: 0 auto;
+    margin-top: .5em;
+    background-color: rgba(98, 4, 4, .85);
+    border: 1px solid rgb(0, 0, 0);
+    padding: .3em .5em;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+.more:hover {
+    cursor: pointer;
+    filter: brightness(150%);
+}
+
+.send {
+    margin: 0 auto;
+    margin-top: .5em;
+    background-color: rgba(98, 4, 4, .85);
+    border: 1px solid rgb(0, 0, 0);
+    padding: .3em .5em;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+.send:hover {
+    cursor: pointer;
+    filter: brightness(150%);
+}
+
+/* Success */
+.success {
+    margin: 0 auto;
+    margin-top: 1em;
+    width: max-content;
+    padding: .5em 1em;
+    background-color:rgba(0, 196, 0, 0.75);
+    border-radius: 20px;
+    color: #fff;
+}
